@@ -18,6 +18,21 @@
     </header>
     <main>
         <h1>study table</h1>
+        <fieldset id='formSec'>
+            <legend> Add new location
+        <form id='addLocation'>
+            <label for="name">Location:</label>
+            <input type="text" id="name" required value= ''>
+            <label for="minCust">minCust</label>
+            <input type="number" id="minCust" required value= ''> 
+            <label for="maxCust">maxCust</label>
+            <input type="number" id="maxCust" required value= ''>
+            <label for="avgCust">avgCust</label>
+            <input type="number" id="avgCust" required value= '' step="any">
+            <input type="submit" id="submit">
+        </form>
+    </legend>
+    </fieldset>
         <table id="table"></table>
     </main>
 
